@@ -24,5 +24,6 @@ int main(void)
 		i++;
 		j = 48;
 	}
+	putchar('\n');
 	return (0);
 }
