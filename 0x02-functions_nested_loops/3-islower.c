@@ -13,13 +13,3 @@ int _islower(int c)
 	else
 		return (0);
 }
-
-/**
-  * main - entry point
-  * Return: the return value of _islower function
-  */
-int main(void)
-{
-	return (_islower('E'));
-
-}

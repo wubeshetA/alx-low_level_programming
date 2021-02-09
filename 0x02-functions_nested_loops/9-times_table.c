@@ -37,7 +37,3 @@ void times_table(void)
 		_putchar('\n');
 	}
 }
-void main(void)
-{
-	times_table();
-}

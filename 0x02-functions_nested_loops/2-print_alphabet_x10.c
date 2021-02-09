@@ -19,11 +19,3 @@ void print_alphabet_x10(void)
 	_putchar('\n');
 	}
 }
-
-/**
-  * main - entry point
-  */
-void main(void)
-{
-	print_alphabet_x10();
-}

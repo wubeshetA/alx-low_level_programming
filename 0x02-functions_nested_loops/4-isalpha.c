@@ -12,12 +12,3 @@ int _isalpha(int c)
 	else
 		return (0);
 }
-
-/**
-  * main - entry point
-  * Return: return value of _isalpha
-  */
-int main(void)
-{
-	return (_isalpha('d'));
-}

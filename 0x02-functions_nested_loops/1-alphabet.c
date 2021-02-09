@@ -14,12 +14,3 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 }
-
-/**
-  * main - entry point
-  */
-void main(void)
-{
-	print_alphabet();
-	return (0);
-}
