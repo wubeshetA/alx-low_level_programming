@@ -16,8 +16,9 @@ void times_table(void)
 
 			if (num <= 9)
 			{
-			_putchar(32);
-			_putchar('0' + i * j);
+				if (j != 0)
+					_putchar(32);
+			_putchar('0' + num);
 			}
 			else if (num > 9)
 			{
@@ -35,4 +36,8 @@ void times_table(void)
 		}
 		_putchar('\n');
 	}
+}
+void main(void)
+{
+	times_table();
 }
