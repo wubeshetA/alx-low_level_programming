@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "holberton.h"
 
 /**
   * fizz_buzz - prints numbers fro  1 to 100.
@@ -32,5 +33,10 @@ void fizz_buzz(void)
 			printf("%d ", i);
 		}
 	}
-	printf('\n');
+	_putchar('\n');
+}
+int main(void)
+{
+	fizz_buzz();
+	return (0);
 }
