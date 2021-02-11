@@ -2,12 +2,10 @@
 #include "holberton.h"
 
 /**
-  * fizz_buzz - prints numbers fro  1 to 100.
-  * but for multiples of 3 print 'Fizz' instead of the number and
-  * for multiples of 5 print 'Buzz'. For numbers which are multiples
-  * of both numbers print 'FizzBuzz'.
+  * main - entry point.
+  * Return: 0 on success.
   */
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -33,14 +31,6 @@ void fizz_buzz(void)
 			printf("%d ", i);
 		}
 	}
-	_putchar('\n');
-}
-/**
-  * main - entry point.
-  * Return: 0 on success
-  */
-int main(void)
-{
-	fizz_buzz();
+	printf("%c", '\n');
 	return (0);
 }
