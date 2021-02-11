@@ -27,17 +27,10 @@ void fizz_buzz(void)
 			else
 				printf("%s", "Buzz");
 		}
-		else 
+		else
 		{
 			printf("%d ", i);
 		}
-
-		
 	}
 	printf('\n');
-}
-
-void main(void)
-{
-	fizz_buzz();
 }
