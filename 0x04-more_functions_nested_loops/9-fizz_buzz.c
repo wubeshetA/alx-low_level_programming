@@ -35,6 +35,10 @@ void fizz_buzz(void)
 	}
 	_putchar('\n');
 }
+/**
+  * main - entry point.
+  * Return: 0 on success
+  */
 int main(void)
 {
 	fizz_buzz();
