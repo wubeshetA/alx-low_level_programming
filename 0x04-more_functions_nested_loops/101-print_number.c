@@ -6,7 +6,7 @@
   */
 void print_number(int n)
 {
-	int d, k, num, tmp;
+	int d, k, num, tmp, a;
 
 	d = 0;
 	k = 1;
@@ -23,7 +23,7 @@ void print_number(int n)
 	}
 	while (d >= 1)
 	{
-		for (int a = 0; a < d; a++)
+		for (a = 0; a < d; a++)
 			k *= 10;
 		num = tmp / k;
 		tmp = tmp % k;
